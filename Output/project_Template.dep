@@ -1,0 +1,54 @@
+Dependencies for Project 'project', Target 'Template': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Source\startup\startup_stm32f10x_md.s)(0x667FB34F)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-4-ID:/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"STM32F10X_MD SETA 1"-o ../../output/startup_stm32f10x_md.o)
+F (..\..\User\main.c)(0x667FC68E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../Drivers/CMSIS/Include -I ../../Drivers/CMSIS/Device/CoreSupport -I ../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../../Drivers/SYSTEM/delay -I ../../Drivers/SYSTEM/sys -I ../../Drivers/SYSTEM/usart -I ../../User-ID:/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="536" -DSTM32F10X_MD -DSTM32F10X_MD-o ../../output/main.o -MD)
+I (..\..\User\main.h)(0x667FBAD0)
+I (..\..\Drivers\SYSTEM\sys\sys.h)(0x667FAEE5)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f10x.h)(0x61605444)
+I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x64ABA88D)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x64ABA88D)
+I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x64ABA88D)
+I (..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x64ABA88D)
+I (D:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A3B7E)
+I (D:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x603507C4)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f10x.h)(0x61605444)
+I (..\..\Drivers\SYSTEM\delay\delay.h)(0x667FAFC6)
+I (..\..\Drivers\SYSTEM\usart\usart.h)(0x667FAFBE)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+F (..\..\Drivers\SYSTEM\delay\delay.c)(0x667FAF50)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../Drivers/CMSIS/Include -I ../../Drivers/CMSIS/Device/CoreSupport -I ../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../../Drivers/SYSTEM/delay -I ../../Drivers/SYSTEM/sys -I ../../Drivers/SYSTEM/usart -I ../../User-ID:/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="536" -DSTM32F10X_MD -DSTM32F10X_MD-o ../../output/delay.o -MD)
+I (..\..\Drivers\SYSTEM\sys\sys.h)(0x667FAEE5)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f10x.h)(0x61605444)
+I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x64ABA88D)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x64ABA88D)
+I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x64ABA88D)
+I (..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x64ABA88D)
+I (D:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A3B7E)
+I (D:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x603507C4)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f10x.h)(0x61605444)
+I (..\..\Drivers\SYSTEM\delay\delay.h)(0x667FAFC6)
+F (..\..\Drivers\SYSTEM\sys\sys.c)(0x667FAF7A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../Drivers/CMSIS/Include -I ../../Drivers/CMSIS/Device/CoreSupport -I ../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../../Drivers/SYSTEM/delay -I ../../Drivers/SYSTEM/sys -I ../../Drivers/SYSTEM/usart -I ../../User-ID:/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="536" -DSTM32F10X_MD -DSTM32F10X_MD-o ../../output/sys.o -MD)
+I (..\..\Drivers\SYSTEM\sys\sys.h)(0x667FAEE5)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f10x.h)(0x61605444)
+I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x64ABA88D)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x64ABA88D)
+I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x64ABA88D)
+I (..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x64ABA88D)
+I (D:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A3B7E)
+I (D:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x603507C4)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f10x.h)(0x61605444)
+F (..\..\Drivers\SYSTEM\usart\usart.c)(0x667FAF97)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -fno-function-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../Drivers/CMSIS/Include -I ../../Drivers/CMSIS/Device/CoreSupport -I ../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../../Drivers/SYSTEM/delay -I ../../Drivers/SYSTEM/sys -I ../../Drivers/SYSTEM/usart -I ../../User-ID:/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="536" -DSTM32F10X_MD -DSTM32F10X_MD-o ../../output/usart.o -MD)
+I (..\..\Drivers\SYSTEM\sys\sys.h)(0x667FAEE5)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f10x.h)(0x61605444)
+I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x64ABA88D)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
+I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x64ABA88D)
+I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x64ABA88D)
+I (..\..\Drivers\CMSIS\Include\cmsis_armclang.h)(0x64ABA88D)
+I (D:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A3B7E)
+I (D:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x603507C4)
+I (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f10x.h)(0x61605444)
+I (..\..\Drivers\SYSTEM\usart\usart.h)(0x667FAFBE)
+I (D:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
